@@ -3,17 +3,6 @@
 //  MomoKatsu_Kadai-08//
 //  Created by モモカツ on 2023/06/03.
 // Part8 2つの画面のスライダーが連動するアプリ
-// swift appdelegate 画面遷移で検索
-// SwiftでAppDelegateを使った画面間のデータ受け渡し
-// https://qiita.com/xa_un/items/814a5cd4472674640f58
-// AppDelegate.swiftから画面遷移する方法
-// https://qiita.com/tomu28/items/4bb327a8f80c042e41a1#２つの遷移方法の違いについて
-// ［Swift,iOS］UIViewController Lifecycle（ライフサイクル）の解説｜viewDidLoad,viewWillAppearなど
-// https://ticklecode.com/uiviewcontrollerlifecycle/
-// ［Swift,iOS］UITabBarController Lifecycle（ライフサイクル）の解説｜viewDidLoad,viewWillAppearなど
-// https://ticklecode.com/uitabbarcontrollerlifecycle/
-//　UIViewControllerのライフサイクル
-//　https://qiita.com/motokiee/items/0ca628b4cc74c8c5599d
 
 import UIKit
 
