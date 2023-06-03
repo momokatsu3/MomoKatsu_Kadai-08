@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9DAFA6D1-FB95-46C0-AC3D-70A7933B6C6E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CF1F663-8E8D-444F-8953-9E0801BB3260"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MomoKatsu_Kadai-08/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6CF1F663-8E8D-444F-8953-9E0801BB3260 - e23eb55072d3d45b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MomoKatsu_Kadai_08.Slider01ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MomoKatsu_Kadai-08"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momokatsu/Desktop/Kadai_Folder/MomoKatsu_Kadai-08/MomoKatsu_Kadai-08/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "431">
+               </Location>
+               <Location
+                  uuid = "6CF1F663-8E8D-444F-8953-9E0801BB3260 - c5c012f19351641b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MomoKatsu_Kadai_08.Slider01ViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "MomoKatsu_Kadai-08"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momokatsu/Desktop/Kadai_Folder/MomoKatsu_Kadai-08/MomoKatsu_Kadai-08/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "482">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F57C442-4C24-4E9E-A20F-A95E2FBBB10E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MomoKatsu_Kadai-08/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4F57C442-4C24-4E9E-A20F-A95E2FBBB10E - db54bc8f082b6ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MomoKatsu_Kadai_08.Slider02ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "MomoKatsu_Kadai-08"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momokatsu/Desktop/Kadai_Folder/MomoKatsu_Kadai-08/MomoKatsu_Kadai-08/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "431">
+               </Location>
+               <Location
+                  uuid = "4F57C442-4C24-4E9E-A20F-A95E2FBBB10E - b24cea57534454fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MomoKatsu_Kadai_08.Slider02ViewController.viewWillAppear(Swift.Bool) -&gt; ()"
+                  moduleName = "MomoKatsu_Kadai-08"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/momokatsu/Desktop/Kadai_Folder/MomoKatsu_Kadai-08/MomoKatsu_Kadai-08/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "482">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
