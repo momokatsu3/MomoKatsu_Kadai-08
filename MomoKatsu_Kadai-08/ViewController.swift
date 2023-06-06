@@ -6,28 +6,22 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
-}
-
 // バックグラウンド：オレンジ色の画面１の”ViewController関連”処理
 class Slider01ViewController: UIViewController {
     // スライダー値示用のラベルを設定
-    @IBOutlet weak var label01: UILabel!
+    @IBOutlet weak var label: UILabel!
     // スライダーのパーツを設置
-    @IBOutlet weak var slider01: UISlider!
+    @IBOutlet weak var slider: UISlider!
     // スライダーの値をラベルに表示する
-    @IBAction func displaySliderValues01(_ sender: Any) {
+    @IBAction func displaySliderValues(_ sender: Any) {
         // スライダー位置の値を変数に設定
-        label01.text = "\(slider01.value)"
+        label.text = "\(slider.value)"
 
         // AppDelegateに用意変数に渡したい値を代入
         //AppDelegateのインスタンスを取得
         let appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
         //appDelegateの変数を操作
-        appDelegate.sliderValueDelgate = Float(slider01.value)
+        appDelegate.sliderValue = Float(slider.value)
     }
 
     // コンテンツビューが画面に表示される前に実行する必要のある操作を実行
@@ -36,30 +30,30 @@ class Slider01ViewController: UIViewController {
         //AppDelegateから変数の値を受け取る
         //AppDelegateのインスタンスを取得
         let appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
-        let sliderValue = appDelegate.sliderValueDelgate
+        let sliderValue = appDelegate.sliderValue
 
         print ("グリーン色の画面２のスライダー０２から渡された値：", sliderValue)
-        label01.text = "\(sliderValue)"
-        slider01.value = sliderValue
+        label.text = "\(sliderValue)"
+        slider.value = sliderValue
     }
 }
 
 // バックグラウンド：グリーン色の画面２の”ViewController関連”処理
 class Slider02ViewController: UIViewController {
     // スライダー値示用のラベルを設定
-    @IBOutlet weak var label02: UILabel!
+    @IBOutlet weak var label: UILabel!
     // スライダーのパーツを設置
-    @IBOutlet weak var slider02: UISlider!
+    @IBOutlet weak var slider: UISlider!
     // スライダーの値をラベルに表示する
-    @IBAction func displaySliderValues02(_ sender: Any) {
+    @IBAction func displaySliderValues(_ sender: Any) {
         // スライダー位置の値を変数に設定
-        label02.text = "\(slider02.value)"
+        label.text = "\(slider.value)"
 
         // AppDelegateに用意変数に渡したい値を代入
         //AppDelegateのインスタンスを取得
         let appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
         //appDelegateの変数を操作
-        appDelegate.sliderValueDelgate = Float(slider02.value)
+        appDelegate.sliderValue = Float(slider.value)
     }
 
     // コンテンツビューが画面に表示される前に実行する必要のある操作を実行
@@ -68,11 +62,11 @@ class Slider02ViewController: UIViewController {
         //AppDelegateから変数の値を受け取る
         //AppDelegateのインスタンスを取得
         let appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
-        let sliderValue = appDelegate.sliderValueDelgate
+        let sliderValue = appDelegate.sliderValue
 
         print ("オレンジ色の画面１のスライダー０１から渡された値：", sliderValue)
-        label02.text = "\(sliderValue)"
-        slider02.value = sliderValue
+        label.text = "\(sliderValue)"
+        slider.value = sliderValue
     }
 }
 

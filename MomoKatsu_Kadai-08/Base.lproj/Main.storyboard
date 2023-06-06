@@ -33,7 +33,7 @@
                                     <constraint firstAttribute="height" constant="30" id="s6W-Lt-EN7"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="displaySliderValues02:" destination="PsA-59-In5" eventType="valueChanged" id="kjI-iq-5Hd"/>
+                                    <action selector="displaySliderValues:" destination="PsA-59-In5" eventType="valueChanged" id="kjI-iq-5Hd"/>
                                 </connections>
                             </slider>
                         </subviews>
@@ -48,8 +48,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 2" id="VRP-FO-s6i"/>
                     <connections>
-                        <outlet property="label02" destination="Zn6-Tw-fyU" id="Z1i-6g-9LE"/>
-                        <outlet property="slider02" destination="V3W-1A-evH" id="3Qi-F2-V3G"/>
+                        <outlet property="label" destination="Zn6-Tw-fyU" id="Z1i-6g-9LE"/>
+                        <outlet property="slider" destination="V3W-1A-evH" id="3Qi-F2-V3G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kRg-TN-S9F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -59,7 +59,6 @@
         <!--Slider01ViewController-->
         <scene sceneID="qQG-Ff-5ba">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dLY-Eh-DZ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController title="Slider01ViewController" id="sdY-u9-clo" customClass="Slider01ViewController" customModule="MomoKatsu_Kadai_08" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0dy-7n-U9W">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -82,7 +81,7 @@
                                     <constraint firstAttribute="height" constant="30" id="hjo-H3-a3n"/>
                                 </constraints>
                                 <connections>
-                                    <action selector="displaySliderValues01:" destination="sdY-u9-clo" eventType="valueChanged" id="CDo-2D-GxK"/>
+                                    <action selector="displaySliderValues:" destination="sdY-u9-clo" eventType="valueChanged" id="CDo-2D-GxK"/>
                                 </connections>
                             </slider>
                         </subviews>
@@ -97,10 +96,11 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="OSn-nF-IbH"/>
                     <connections>
-                        <outlet property="label01" destination="fqg-pU-XHW" id="Kby-q3-mAj"/>
-                        <outlet property="slider01" destination="2fb-if-MrF" id="Gnl-k9-WkQ"/>
+                        <outlet property="label" destination="fqg-pU-XHW" id="Kby-q3-mAj"/>
+                        <outlet property="slider" destination="2fb-if-MrF" id="Gnl-k9-WkQ"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dLY-Eh-DZ6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1351.9083969465648" y="-723.23943661971839"/>
         </scene>

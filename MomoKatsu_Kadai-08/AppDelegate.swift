@@ -11,7 +11,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // AppDelegateに受け渡す変数を用意
-    var sliderValueDelgate = Float(0.0)
+    var sliderValue = Float(0.0)
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
